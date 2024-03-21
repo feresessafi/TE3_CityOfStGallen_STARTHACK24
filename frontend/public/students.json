@@ -5,7 +5,8 @@
       "age": 10,
       "topstrength": "communication",
       "weakness1": "mathematics",
-      "weakness2": "time management"
+      "weakness2": "time management",
+      "class": "1b"
   },
   {
       "firstname": "Yahia",
@@ -13,7 +14,8 @@
       "age": 12,
       "topstrength": "problem-solving",
       "weakness1": "public speaking",
-      "weakness2": "writing"
+      "weakness2": "writing",
+    "class": "2a"
   },
   {
       "firstname": "Feres",
@@ -21,7 +23,9 @@
       "age": 11,
       "topstrength": "creativity",
       "weakness1": "focus",
-      "weakness2": "patience"
+      "weakness2": "patience",
+    "class": "1b"
+
   },
   {
       "firstname": "Basel",
@@ -29,8 +33,7 @@
       "age": 9,
       "topstrength": "teamwork",
       "weakness1": "listening",
-      "weakness2": "organization"
+      "weakness2": "organization",
+    "class": "1a"
   }
 ]
-
-  
