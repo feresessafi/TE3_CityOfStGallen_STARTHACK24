@@ -1,83 +1,36 @@
 [
-    {
+  {
       "firstname": "Salih",
       "lastname": "Uyar",
-      "age": 0,
+      "age": 10,
       "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
-      "firstname": "",
-      "lastname": "",
-      "age": 0,
-      "topstrength": "",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
+      "weakness1": "mathematics",
+      "weakness2": "time management"
+  },
+  {
       "firstname": "Yahia",
       "lastname": "Elsaman",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
+      "age": 12,
+      "topstrength": "problem-solving",
+      "weakness1": "public speaking",
+      "weakness2": "writing"
+  },
+  {
       "firstname": "Feres",
       "lastname": "Essafi",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
+      "age": 11,
+      "topstrength": "creativity",
+      "weakness1": "focus",
+      "weakness2": "patience"
+  },
+  {
       "firstname": "Basel",
       "lastname": "Uyar",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
-      "firstname": "Ziad",
-      "lastname": "Mohammed",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
-      "firstname": "Osmantjang",
-      "lastname": "Uyghur",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
-      "firstname": "Maxwell",
-      "lastname": "Temoka",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
-      "firstname": "Salih",
-      "lastname": "Uyar",
-      "age": 0,
-      "topstrength": "communic",
-      "weakness1": "",
-      "weakness2": ""
-    },
-    {
-      "firstname": "Eric",
-      "lastname": "ching chong",
-      "age": 0,
-      "topstrength": "communication",
-      "weakness1": "",
-      "weakness2": ""
-    }
+      "age": 9,
+      "topstrength": "teamwork",
+      "weakness1": "listening",
+      "weakness2": "organization"
+  }
 ]
+
   
