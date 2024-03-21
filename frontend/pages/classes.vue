@@ -1,15 +1,17 @@
 <template>
-  <div class="classes-container">
-    <h1>Your Classes</h1>
-    <div v-if="classes.length === 0" class="loading-message">Loading...</div>
-    <div v-else>
+  <div
+    class="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-24"
+  >
+    <h1 class="text-8xl font-bold text-gray-900 mb-20">Your Classes</h1>
+    <div class="flex flex-wrap justify-center gap-8">
       <button
-        v-for="(classData, index) in classes"
-        :key="index"
-        class="class-button"
-        @click="buttonClick(classData)"
+        v-for="classs in classes"
+        :key="classs.classname"
+
+        class="flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-xl font-bold text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 min-w-[80px]"
+        @click="$router.push('/students')"
       >
-        {{ classData.classname }}
+        {{ classs.classname }}
       </button>
     </div>
   </div>
@@ -28,51 +30,17 @@ export default {
   methods: {
     async fetchClasses() {
       try {
-        const response = await fetch('/classes.json');
+        const response = await fetch("/classes.json");
         if (!response.ok) {
-          throw new Error('Failed to fetch classes');
+          throw new Error("Failed to fetch classes");
         }
         const data = await response.json();
         this.classes = data;
       } catch (error) {
-        console.error('Error fetching classes:', error);
+        console.error("Error fetching classes:", error);
       }
-    },
-    buttonClick(classData){
-      alert('TE333');
     },
   },
 };
 </script>
 
-<style scoped>
-/* Add your CSS styles here */
-.classes-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.loading-message {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #666;
-}
-
-.class-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px 5px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.class-button:hover {
-  background-color: #0056b3;
-}
-</style>
