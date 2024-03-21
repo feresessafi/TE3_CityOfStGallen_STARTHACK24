@@ -6,7 +6,8 @@
       "topstrength": "communication",
       "weakness1": "mathematics",
       "weakness2": "time management",
-      "class": "1b"
+      "class": "1b",
+      "path":"/salih"
   },
   {
       "firstname": "Yahia",
@@ -15,7 +16,8 @@
       "topstrength": "problem-solving",
       "weakness1": "public speaking",
       "weakness2": "writing",
-    "class": "2a"
+      "class": "2a",
+      "path":"/yahia"
   },
   {
       "firstname": "Feres",
@@ -24,7 +26,8 @@
       "topstrength": "creativity",
       "weakness1": "focus",
       "weakness2": "patience",
-    "class": "1b"
+      "class": "1b",
+      "path":"/feres"
 
   },
   {
@@ -34,6 +37,7 @@
       "topstrength": "teamwork",
       "weakness1": "listening",
       "weakness2": "organization",
-    "class": "1a"
+      "class": "1a",
+      "path":"/basel"
   }
 ]
