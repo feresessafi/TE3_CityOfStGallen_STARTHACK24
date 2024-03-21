@@ -41,6 +41,7 @@ export default {
         submitForm() {
             console.log('Submitting:', this.credentials);
             // Here you would handle the login logic, potentially sending the credentials to your backend server for authentication
+            this.$router.push('/students');
         },
     },
 };
