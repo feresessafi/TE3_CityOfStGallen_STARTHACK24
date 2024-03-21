@@ -1,0 +1,20 @@
+[
+    {
+      "firstname": "",
+      "lastname": "",
+      "age": 0,
+      "topstrength": "",
+      "weakness1": "",
+      "weakness2": ""
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "age": 0,
+      "topstrength": "",
+      "weakness1": "",
+      "weakness2": ""
+    }
+    // Add more student objects as needed
+  ]
+  
