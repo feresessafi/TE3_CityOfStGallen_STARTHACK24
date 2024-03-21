@@ -1,0 +1,39 @@
+[
+    {
+        "classname" : "1/A"
+
+    },
+    {
+        "classname" : "1/B"
+    } ,
+    {
+        "classname" : "2/A"
+    } ,
+    {
+        "classname" : "2/B"
+    } ,
+    {
+        "classname" : "3/A"
+    },
+    {
+        "classname" : "3/B"
+    } ,
+    {
+        "classname" : "4/A"
+    },
+    {
+        "classname" : "4/B"
+    },
+    {
+        "classname" : "5/A"
+    },
+    {
+        "classname" : "5/B"
+    },
+    {
+        "classname" : "6/A"
+    },
+    {
+        "classname" : "6/B"
+    }
+]
