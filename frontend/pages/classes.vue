@@ -1,15 +1,22 @@
 <template>
-  <div class="classes-container">
-    <h1>Your Classes</h1>
-    <div v-if="classes.length === 0" class="loading-message">Loading...</div>
-    <div v-else>
+  <div
+    class="dynamic-background flex flex-col items-center justify-center p-24"
+  >
+    <h1 class="text-8xl font-bold text-blue-900 mb-20">Your Classes</h1>
+    <div class="flex flex-wrap justify-center gap-8">
       <button
-        v-for="(classData, index) in classes"
-        :key="index"
-        class="class-button"
-        @click="buttonClick(classData)"
+        v-for="classs in classes"
+        :key="classs.classname"
+        class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-xl font-medium text-blue-900 rounded-lg group bg-gradient-to-br from-orange-200 via-blue-200 to-orange-200 group-hover:from-orange-300 group-hover:via-blue-300 group-hover:to-orange-300 hover:text-blue-900 focus:ring-4 focus:outline-none focus:ring-orange-200"
+
+        @click="$router.push('/students')"
       >
-        {{ classData.classname }}
+      <span
+          class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0"
+      >
+        {{ classs.classname }}        
+      </span>
+        
       </button>
     </div>
   </div>
@@ -28,51 +35,38 @@ export default {
   methods: {
     async fetchClasses() {
       try {
-        const response = await fetch('/classes.json');
+        const response = await fetch("/classes.json");
         if (!response.ok) {
-          throw new Error('Failed to fetch classes');
+          throw new Error("Failed to fetch classes");
         }
         const data = await response.json();
         this.classes = data;
       } catch (error) {
-        console.error('Error fetching classes:', error);
+        console.error("Error fetching classes:", error);
       }
-    },
-    buttonClick(classData){
-      alert('TE333');
     },
   },
 };
 </script>
 
-<style scoped>
-/* Add your CSS styles here */
-.classes-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+
+<style>
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.loading-message {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #666;
-}
-
-.class-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px 5px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.class-button:hover {
-  background-color: #0056b3;
+.dynamic-background {
+  background: linear-gradient(270deg, #ffedd5e9, #dbeafee3);
+  background-size: 400% 400%;
+  animation: backgroundAnimation 30s ease infinite;
+  min-height: 100vh;
 }
 </style>

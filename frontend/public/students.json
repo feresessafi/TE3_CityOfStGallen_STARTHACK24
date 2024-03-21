@@ -6,8 +6,7 @@
       "topstrength": "communication",
       "weakness1": "mathematics",
       "weakness2": "time management",
-      "class": "1b",
-      "path":"/salih"
+      "class": "1b"
   },
   {
       "firstname": "Yahia",
@@ -16,8 +15,7 @@
       "topstrength": "problem-solving",
       "weakness1": "public speaking",
       "weakness2": "writing",
-      "class": "2a",
-      "path":"/yahia"
+      "class": "2a"
   },
   {
       "firstname": "Feres",
@@ -26,18 +24,70 @@
       "topstrength": "creativity",
       "weakness1": "focus",
       "weakness2": "patience",
-      "class": "1b",
-      "path":"/feres"
-
+      "class": "1b"
   },
   {
-      "firstname": "Basel",
-      "lastname": "Uyar",
+      "firstname": "Bob",
+      "lastname": "Andrew",
       "age": 9,
       "topstrength": "teamwork",
       "weakness1": "listening",
       "weakness2": "organization",
-      "class": "1a",
-      "path":"/basel"
-  }
+      "class": "1a"
+  },
+  {
+    "firstname": "Jakob",
+    "lastname": "Soernsen",
+    "age": 13,
+    "topstrength": "englih",
+    "weakness1": "multiplication",
+    "weakness2": "empathy",
+    "class": "6A"
+},
+{
+    "firstname": "Mark",
+    "lastname": "Koschari",
+    "age": 10,
+    "topstrength": "problem-solving",
+    "weakness1": "teamwork",
+    "weakness2": "communication",
+    "class": "6a"
+},
+{
+    "firstname": "Giovanni",
+    "lastname": "Monio",
+    "age": 9,
+    "topstrength": "creativity",
+    "weakness1": "focus",
+    "weakness2": "patience",
+    "class": "4c"
+},
+{
+    "firstname": "Karim",
+    "lastname": "Kuks",
+    "age": 8,
+    "topstrength": "drawing",
+    "weakness1": "logical thinking",
+    "weakness2": "mathematics",
+    "class": "2b"
+},
+{
+    "firstname": "Jason",
+    "lastname": "Davidson",
+    "age": 12,
+    "topstrength": "grammar",
+    "weakness1": "clean handwriting",
+    "weakness2": "organization",
+    "class": "4c"
+},
+{
+    "firstname": "Daniel",
+    "lastname": "Tarkmann",
+    "age": 7,
+    "topstrength": "creativity",
+    "weakness1": "focus",
+    "weakness2": "patience",
+    "class": "2b"
+
+}
 ]

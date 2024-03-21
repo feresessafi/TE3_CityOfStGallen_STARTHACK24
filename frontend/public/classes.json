@@ -1,39 +1,14 @@
 [
     {
-        "classname" : "1A"
-
-    },
-    {
         "classname" : "1B"
-    } ,
-    {
-        "classname" : "2A"
     } ,
     {
         "classname" : "2B"
     } ,
     {
-        "classname" : "3A"
-    },
-    {
-        "classname" : "3B"
-    } ,
-    {
-        "classname" : "4A"
-    },
-    {
-        "classname" : "4B"
-    },
-    {
-        "classname" : "5A"
-    },
-    {
-        "classname" : "5B"
+        "classname" : "4C"
     },
     {
         "classname" : "6A"
-    },
-    {
-        "classname" : "6B"
     }
 ]
