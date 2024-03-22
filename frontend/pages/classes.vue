@@ -2,12 +2,13 @@
   <div
     class="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-24"
   >
+  <NavBar/>
     <h1 class="text-8xl font-bold text-gray-800 mb-20">Your Classes</h1>
     <div class="flex flex-wrap justify-center gap-8">
       <button
         v-for="classs in classes"
         :key="classs.classname"
-        class="transition ease-in-out duration-150 flex justify-center py-2 px-4 border border-transparent rounded-md shadow text-xl font-medium text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        class="transition ease-in-out duration-150 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-xl text-xl font-medium text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         @click="$router.push('/students')"
       >
         {{ classs.classname }}
@@ -17,7 +18,12 @@
 </template>
 
 <script>
+import NavBar from './Navbar.vue'; // Adjust the path as necessary
+
 export default {
+  components: {
+    NavBar,
+  },
   data() {
     return {
       classes: [],

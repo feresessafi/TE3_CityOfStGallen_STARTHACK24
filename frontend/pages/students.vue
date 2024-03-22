@@ -1,13 +1,14 @@
 <template>
-  <div
-    class="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-24"
-  >
+  <div class="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-24">
+    <!-- NavBar Component -->
+    <NavBar/>
+    <!-- Rest of the page content -->
     <h1 class="text-8xl font-bold text-gray-800 mb-20">Your Students</h1>
     <div class="flex flex-wrap justify-center gap-8">
       <button
         v-for="student in students"
         :key="student.firstname"
-        class="transition ease-in-out duration-150 flex justify-center py-2 px-4 border border-transparent rounded-md shadow text-xl font-medium text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        class="transition ease-in-out duration-150 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-xl text-xl font-medium text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         @click="showModal(student)"
       >
         {{ student.firstname }} {{ student.lastname }}
@@ -22,12 +23,16 @@
   </div>
 </template>
 
+
 <script>
 import StudentModal from "./StudentModal.vue"; // Ensure this path is correct
+import NavBar from './Navbar.vue'; // Adjust the path as necessary
+
 
 export default {
   components: {
     StudentModal,
+    NavBar
   },
   data() {
     return {
@@ -57,3 +62,5 @@ export default {
   },
 };
 </script>
+
+

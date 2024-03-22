@@ -1,50 +1,33 @@
 <template>
-    <div class="min-h-screen flex items-center justify-center bg-blue-50">
-      <div class="max-w-md w-full bg-white rounded-lg shadow-lg p-10">
-        <div class="mb-8">
-          <h2 class="text-center text-3xl font-semibold text-gray-900">Login</h2>
-        </div>
-        <form @submit.prevent="submitForm" class="space-y-8">
-          <div>
-            <label for="username" class="block text-lg font-medium text-gray-800">Username</label>
-            <input type="text" id="username" v-model="credentials.username"
-              class="mt-2 block w-full p-3 border border-gray-300 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-blue-300 focus:border-blue-300"
-              required>
-          </div>
-          <div>
-            <label for="password" class="block text-lg font-medium text-gray-800">Password</label>
-            <input type="password" id="password" v-model="credentials.password"
-              class="mt-2 block w-full p-3 border border-gray-300 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-blue-300 focus:border-blue-300"
-              required>
-          </div>
-          <div>
-            <button type="submit"
-              class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-              Sign In
-            </button>
-          </div>
-        </form>
-      </div>
+  <div class="flex flex-col items-center justify-center min-h-screen bg-gray-50 top-0"> <!-- pt-12 reduces the top padding, effectively moving content up -->
+    <div class="flex items-center justify-center mb-8 space-x-4"> <!-- space-x-4 adds spacing between logo and text -->
+      <img src="public/images/LogoTE3.png" alt="TE3 Logo" class="w-48 h-48"> <!-- Adjust size as needed -->
+      <h1 class="text-8xl font-bold text-gray-800">TE3</h1>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        credentials: {
-          username: '',
-          password: '',
-        },
-      };
-    },
-    methods: {
-      submitForm() {
-        console.log('Submitting:', this.credentials);
-        // Handle login logic here
-        this.$router.push('/classes'); // Adjust according to your routing
-      },
-    },
-  };
-  </script>
-  
+    <h2 class="text-6xl font-bold animate-text-change pt-12">Transforming Evaluation Experience.</h2>
+  </div>
+</template>
+
+<script>
+export default {
+  mounted() {
+    setTimeout(() => {
+      this.$router.push('/login'); // Adjust this as necessary
+    }, 3000); // Delay before redirect
+  },
+};
+</script>
+
+<style>
+@keyframes textColorChange {
+  0%, 100% {
+    color: #6366f1; /* Tailwind's indigo-500 */
+  }
+  50% {
+    color: #f0a148; /* Tailwind's gray-400 */
+  }
+}
+.animate-text-change {
+  animation: textColorChange 3s ease-in-out forwards infinite;
+}
+</style>
