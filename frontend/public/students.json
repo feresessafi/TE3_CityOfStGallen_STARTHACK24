@@ -3,28 +3,28 @@
       "firstname": "Salih",
       "lastname": "Uyar",
       "age": 10,
-      "topstrength": "Persuasion",
-      "weakness1": "Spatial Reasoning",
-      "weakness2": "Procrastination",
-      "class": "1b"
+      "topstrength": "Grammar",
+      "weakness1": "Mathematics",
+      "weakness2": "Logical Thinking",
+      "class": "4b"
   },
   {
       "firstname": "Yahia",
       "lastname": "Elsaman",
       "age": 12,
-      "topstrength": "Critical Thinking",
-      "weakness1": "Time Management",
-      "weakness2": "Attention to Detail",
-      "class": "2a"
+      "topstrength": "Creative Writing",
+      "weakness1": "Word Problem Understanding",
+      "weakness2": "Group-Work",
+      "class": "4a"
   },
   {
       "firstname": "Feres",
       "lastname": "Essafi",
       "age": 11,
-      "topstrength": "Imagination",
-      "weakness1": "Following Instructions",
-      "weakness2": "Perseverance",
-      "class": "1b"
+      "topstrength": "Quick Comprehension",
+      "weakness1": "Organized Thinking and Working",
+      "weakness2": "Teamwork",
+      "class": "4b"
   },
   {
       "firstname": "Bob",
