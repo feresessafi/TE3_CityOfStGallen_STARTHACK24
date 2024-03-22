@@ -3,91 +3,94 @@
       "firstname": "Salih",
       "lastname": "Uyar",
       "age": 10,
-      "topstrength": "communication",
-      "weakness1": "mathematics",
-      "weakness2": "time management",
+      "topstrength": "Persuasion",
+      "weakness1": "Spatial Reasoning",
+      "weakness2": "Procrastination",
       "class": "1b"
   },
   {
       "firstname": "Yahia",
       "lastname": "Elsaman",
       "age": 12,
-      "topstrength": "problem-solving",
-      "weakness1": "public speaking",
-      "weakness2": "writing",
+      "topstrength": "Critical Thinking",
+      "weakness1": "Time Management",
+      "weakness2": "Attention to Detail",
       "class": "2a"
   },
   {
       "firstname": "Feres",
       "lastname": "Essafi",
       "age": 11,
-      "topstrength": "creativity",
-      "weakness1": "focus",
-      "weakness2": "patience",
+      "topstrength": "Imagination",
+      "weakness1": "Following Instructions",
+      "weakness2": "Perseverance",
       "class": "1b"
   },
   {
       "firstname": "Bob",
       "lastname": "Andrew",
       "age": 9,
-      "topstrength": "teamwork",
-      "weakness1": "listening",
-      "weakness2": "organization",
+      "topstrength": "Collaboration",
+      "weakness1": "Self-Confidence",
+      "weakness2": "Adaptability",
       "class": "1a"
   },
   {
     "firstname": "Jakob",
     "lastname": "Soernsen",
     "age": 13,
-    "topstrength": "englih",
-    "weakness1": "multiplication",
-    "weakness2": "empathy",
+    "topstrength": "Research Skills",
+    "weakness1": "Organization",
+    "weakness2": "Critical Reading",
     "class": "6A"
 },
 {
     "firstname": "Mark",
     "lastname": "Koschari",
     "age": 10,
-    "topstrength": "problem-solving",
-    "weakness1": "teamwork",
-    "weakness2": "communication",
+    "topstrength": "Analytical Thinking",
+    "weakness1": "Flexibility",
+    "weakness2": "Attention to Detail",
     "class": "6a"
+    
 },
 {
     "firstname": "Giovanni",
     "lastname": "Monio",
     "age": 9,
-    "topstrength": "creativity",
-    "weakness1": "focus",
-    "weakness2": "patience",
+    "topstrength": "Originality",
+    "weakness1": "Attention Span",
+    "weakness2": "Following Instructions",
     "class": "4c"
 },
 {
     "firstname": "Karim",
     "lastname": "Kuks",
     "age": 8,
-    "topstrength": "drawing",
-    "weakness1": "logical thinking",
-    "weakness2": "mathematics",
+    "topstrength": "Visual Artistry",
+    "weakness1": "Analytical Thinking",
+    "weakness2": "Logical Reasoning",
     "class": "2b"
 },
 {
     "firstname": "Jason",
     "lastname": "Davidson",
     "age": 12,
-    "topstrength": "grammar",
-    "weakness1": "clean handwriting",
-    "weakness2": "organization",
+    "topstrength": "Language Proficiency",
+    "weakness1": "Time Management",
+    "weakness2": "Attention to Detail",
     "class": "4c"
 },
 {
     "firstname": "Daniel",
     "lastname": "Tarkmann",
     "age": 7,
-    "topstrength": "creativity",
-    "weakness1": "focus",
-    "weakness2": "patience",
+    "topstrength": "Inventiveness",
+    "weakness1": "Organization",
+    "weakness2": "Persistence",
     "class": "2b"
+
+
 
 }
 ]
