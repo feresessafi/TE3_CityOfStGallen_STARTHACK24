@@ -9,11 +9,6 @@ To empower teachers with a tool that simplifies the evaluation process, making i
 - Foster an environment where educators can focus on teaching rather than administrative tasks.
 - Support educational recovery and resilience post-COVID-19.
 
-## Meet the Team
-
-- **Feres Essafi:** Frontend Lead & Design Visionary
-- **Salih Uyar:** Data Management Specialist & Frontend Developer
-- **Yahia ElSaman:** Creative Designer & Frontend Developer
 
 ## Features
 
