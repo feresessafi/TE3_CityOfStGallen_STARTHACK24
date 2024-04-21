@@ -1,6 +1,6 @@
 # TE3: Transforming Educational Evaluation Experience
 
-TE3 is a groundbreaking WebApp designed specifically for teachers to optimize the evaluation process of students in the early stages of education. This solution is born out of a pressing need to support educators overwhelmed by traditional assessment methods, especially in the wake of educational disruptions caused by the COVID-19 pandemic. TE3 stands as a beacon of innovation, offering a simple, intuitive platform that brings clarity and efficiency to student assessments.
+TE3 is a WebApp designed specifically for teachers to optimize the evaluation process of students in the early stages of education. This solution is born out of a pressing need to support educators overwhelmed by traditional assessment methods, especially in the wake of educational disruptions caused by the COVID-19 pandemic. TE3 stands as a beacon of innovation, offering a simple, intuitive platform that brings clarity and efficiency to student assessments.
 
 ## Our Vision
 
@@ -14,13 +14,7 @@ To empower teachers with a tool that simplifies the evaluation process, making i
 
 - **Simple and Intuitive Use:** Designed with teachers in mind, ensuring ease of use.
 - **Comprehensive Overview:** Provides a clear and concise view of student performance.
-- **Scalable Solution:** Built to accommodate the growing needs of educational institutions.
 
-## Technology Stack
-
-- **Frontend:** Vue.js, Tailwind CSS for a responsive and accessible design.
-- **Backend:** Leveraging Nuxt 3 for server-side rendering, enhancing performance and SEO.
-- **Deployment:** A flexible and scalable architecture ensuring reliability and ease of maintenance.
 
 ## Getting Started
 
